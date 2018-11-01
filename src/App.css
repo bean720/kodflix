@@ -1,3 +1,30 @@
+.App-one {
+  width: 33vw;
+  height: 50vh;
+}
+.App-wire {
+  width: 33vw;
+  height: 50vh;
+}
+.App-avatar {
+  width: 33vw;
+  height: 50vh;
+}
+.App-game {
+  width: 33vw;
+  height: 50vh;
+}
+.App-monkey {
+  width: 33vw;
+  height: 50vh;
+}
+.App-evil {
+  width: 33vw;
+  height: 50vh;
+}
+.Text {
+  text-align: center;
+}
 .flex-grid {
   display: flex;
 }
