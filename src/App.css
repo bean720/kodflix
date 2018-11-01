@@ -1,3 +1,6 @@
-.App-evil {
-  width: 100vw;
+.flex-grid {
+  display: flex;
+}
+.col {
+  flex: 1;
 }
