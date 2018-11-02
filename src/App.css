@@ -1,27 +1,4 @@
-.App-one {
-  width: 33vw;
-  height: 50vh;
-}
-.App-wire {
-  width: 33vw;
-  height: 50vh;
-}
-.App-avatar {
-  width: 33vw;
-  height: 50vh;
-}
-.App-game {
-  width: 33vw;
-  height: 50vh;
-}
-.App-monkey {
-  width: 33vw;
-  height: 50vh;
-}
-.App-evil {
-  width: 33vw;
-  height: 50vh;
-}
+
 .Text {
   text-align: center;
 }
@@ -30,4 +7,15 @@
 }
 .col {
   flex: 1;
+}
+img {
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  body {
+      background-color: rgb(230, 173, 173);
+  }
+  .flex-grid  {
+    flex-direction: column;
+  }
 }
