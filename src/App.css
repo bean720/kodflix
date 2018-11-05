@@ -1,31 +1,27 @@
-
-.Text {
-    text-align: center;
-    border: center;
-    border: 3px solid black;
-    background-color:rgb(201, 202, 183);
-  padding: 2  0px;
-  display: center;
-  font-size:30px;
-  transform:translateY(400px);
-  transition:2s;
-  opacity: 0;
-
-}
 .flex-grid {
   display: flex;
 }
 .col {
   flex: 1;
 }
-.col:hover .Text {
-  opacity: 1;
-  transform:translateY(440px);
+.Text {
+  text-align: center;
+  border: center;
+  border: 3px solid black;
+  background-color:rgb(201, 202, 183);
+  font-size:30px;
+  transform:translateY(400px);
+  transition:2s;
+  opacity: 0;
 }
 img {
   width: 100%;
   border: 3px solid black;
-  padding: 2  0px;
+  display: block;
+}
+.col:hover .Text {
+  opacity: 1;
+  transform:translateY(440px);
 }
 @media only screen and (max-width: 600px) {
   body {
