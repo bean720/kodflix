@@ -12,38 +12,34 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-body">
-        
-         
           <div className="flex-grid">
             <div className="col">
-              <img src={one} className="App-image" alt="one" />
               <h2 className="Text">One piece</h2>
+              <img src={one} className="App-image" alt="one" />
             </div>
             <div className="col">
-              <img src={wire} className="App-image" alt="wire" />
               <h2 className="Text">The Wire</h2>
+              <img src={wire} className="App-image" alt="wire" />
             </div>
             <div className="col">
-              <img src={avatar} className="App-image" alt="avatar" />
               <h2 className="Text">Avatar</h2>
+              <img src={avatar} className="App-image" alt="avatar" />
             </div>
           </div>  
           <div className="flex-grid">
             <div className="col">
+              <h2 className="Text">GOT</h2>
               <img src={game} className="App-image" alt="game" />
-              <h2 className="Text">Game of Thrones</h2>
             </div>
             <div className="col">
-              <img src={monkey} className="App-image" alt="monkey" />
               <h2 className="Text">Monkey</h2>
+              <img src={monkey} className="App-image" alt="monkey" />
             </div>
             <div className="col">
-              <img src={death} className="App-image" alt="death" />
               <h2 className="Text">Death Note</h2>
+              <img src={death} className="App-image" alt="death" />
             </div>
           </div> 
-
-          
         </header>
       </div>
     );
