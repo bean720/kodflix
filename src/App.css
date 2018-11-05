@@ -20,6 +20,7 @@
 }
 .col:hover .Text {
   opacity: 1;
+  transform:translateY(440px);
 }
 img {
   width: 100%;
