@@ -5,7 +5,7 @@ import avatar from './img/avatar.jpg';
 import naruto from './img/naruto.jpg';
 import monkey from './img/monkey.jpg';
 import death from './img/death.jpg';
-import MovieCover from './MovieCover';
+import Gallery from './Gallery';
 import './App.css';
 
 const MovieCovers = (props) => {
@@ -13,14 +13,14 @@ const MovieCovers = (props) => {
   return (
    <div> 
     <div className="flex-grid">
-      <MovieCover title="One Piece" image={ one }/>
-      <MovieCover title="One Punch Man" image={ punch }/>
-      <MovieCover title="Avatar" image={ avatar }/>
+      <Gallery title="One Piece" image={ one }/>
+      <Gallery title="One Punch Man" image={ punch }/>
+      <Gallery title="Avatar" image={ avatar }/>
     </div>
     <div className="flex-grid">
-      <MovieCover title="Naruto" image={ naruto }/>
-      <MovieCover title="Monkey" image={ monkey }/>
-      <MovieCover title="Death Note" image={ death }/>
+      <Gallery title="Naruto" image={ naruto }/>
+      <Gallery title="Monkey" image={ monkey }/>
+      <Gallery title="Death Note" image={ death }/>
     </div> 
    </div> 
   )
