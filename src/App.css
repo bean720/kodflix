@@ -3,6 +3,7 @@
 }
 .col {
   flex: 1;
+  flex-wrap: wrap;
 }
 .Text {
   text-align: center;

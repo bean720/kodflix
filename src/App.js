@@ -1,45 +1,25 @@
 import React, { Component } from 'react';
 import MovieCovers from './MovieCovers';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+// import Route from 'react-router-dom/Route';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-body">
-          <MovieCovers/>
-          
-          {/* <div className="flex-grid">
-            <div className="col">
-              <h2 className="Text">One piece</h2>
-              <img src={one} className="App-image" alt="one" />
-            </div>
-            <div className="col">
-              <h2 className="Text">The Wire</h2>
-              <img src={wire} className="App-image" alt="wire" />
-            </div>
-            <div className="col">
-              <h2 className="Text">Avatar</h2>
-              <img src={avatar} className="App-image" alt="avatar" />
-            </div>
-          </div>   */}
-          {/* <div className="flex-grid">
-            <div className="col">
-              <h2 className="Text">GOT</h2>
-              <img src={game} className="App-image" alt="game" />
-            </div>
-            <div className="col">
-              <h2 className="Text">Monkey</h2>
-              <img src={monkey} className="App-image" alt="monkey" />
-            </div>
-            <div className="col">
-              <h2 className="Text">Death Note</h2>
-              <img src={death} className="App-image" alt="death" />
-            </div>
-          </div>  */}
-        </header>
-      </div>
-    );
-  }
-}
-
+      <Router>
+        <div className="App">
+          <Route path="/details" exact render={
+              () => {
+                return ( <h1>Hello, this will be the details page for each Movie & TV show :)</h1>);
+              }
+            }/>
+          <header className="App-body">
+            <MovieCovers />
+          </header>
+        </div>
+      </Router>
+        );
+      }
+    }
+    
 export default App;

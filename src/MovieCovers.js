@@ -1,8 +1,8 @@
 import React from 'react';
 import one from './img/one.jpg';
-import wire from './img/wire.jpeg';
+import punch from './img/punch.jpg';
 import avatar from './img/avatar.jpg';
-import game from './img/game.jpg';
+import naruto from './img/naruto.jpg';
 import monkey from './img/monkey.jpg';
 import death from './img/death.jpg';
 import MovieCover from './MovieCover';
@@ -14,11 +14,11 @@ const MovieCovers = (props) => {
    <div> 
     <div className="flex-grid">
       <MovieCover title="One Piece" image={ one }/>
-      <MovieCover title="The Wire" image={ wire }/>
+      <MovieCover title="One Punch Man" image={ punch }/>
       <MovieCover title="Avatar" image={ avatar }/>
     </div>
     <div className="flex-grid">
-      <MovieCover title="GOT" image={ game }/>
+      <MovieCover title="Naruto" image={ naruto }/>
       <MovieCover title="Monkey" image={ monkey }/>
       <MovieCover title="Death Note" image={ death }/>
     </div> 
